@@ -1,0 +1,17 @@
+<div class="row">
+  <div class="col-xs-12">
+    <button class="btn btn-warning" (click)="onNewDarkin()">
+      New Champion
+    </button>
+  </div>
+</div>
+<hr />
+<div class="row">
+  <div class="col-xs-12">
+    <app-darkin-unit
+      *ngFor="let darkinEl of darkins; let i = index"
+      [darkin]="darkinEl"
+      [index]="i"
+    ></app-darkin-unit>
+  </div>
+</div>
