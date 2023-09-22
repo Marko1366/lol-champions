@@ -5,3 +5,7 @@ body {
 img {
   border-radius: 10px;
 }
+
+.btn-success {
+  margin-right: 20px;
+}
